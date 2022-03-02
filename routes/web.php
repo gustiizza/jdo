@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\BackendController;
+use App\Http\Controllers\SiteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/dasboard', function () {
-    return view('welcome');
-});
+
+Route::get('/', [SiteController::class, 'dasboard']);
+Route::get('/kelola-pemesanan', [SiteController::class, 'kelolaPemesanan']);
