@@ -2,12 +2,12 @@
     <div class="sb-sidenav-menu">
         <div class="nav">
             <div class="sb-sidenav-menu-heading">Dasboard</div>
-            <a class="nav-link" href="{{ ('/') }}">
+            <a class="nav-link" href="{{ ('/dasboard') }}">
                 <div class="sb-nav-link-icon"></div>
                 Dashboard
             </a>
             <div class="sb-sidenav-menu-heading">Kelola Data</div>
-            <a class="nav-link" href="charts.html">
+            <a class="nav-link" href="/kelola-produk">
                 <div class="sb-nav-link-icon"></div>
                 Kelola Data Produk
             </a>
@@ -15,20 +15,20 @@
                 <div class="sb-nav-link-icon"></div>
                 Kelola Pemesanan
             </a>
-            <a class="nav-link" href="charts.html">
+            <a class="nav-link" href="/kelola-checkout">
                 <div class="sb-nav-link-icon"></div>
-                Keola Data Checkout
+                Kelola Data Checkout
             </a>
-            <a class="nav-link" href="charts.html">
+            <a class="nav-link" href="/kelola-pelanggan">
                 <div class="sb-nav-link-icon"></div>
                 Kelola History Pelanggan
             </a>
-            <a class="nav-link" href="charts.html">
+            <a class="nav-link" href="/kelola-sosmed">
                 <div class="sb-nav-link-icon"></div>
                 Kelola Sosial Media
             </a>
             <div class="sb-sidenav-menu-heading">Pengaturan</div>
-            <a class="nav-link" href="charts.html">
+            <a class="nav-link" href="/setting">
                 <div class="sb-nav-link-icon"></div>
                 Pengaturan Website
             </a>

@@ -8,11 +8,16 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Juragan Donat Admin</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/icon_round.png') }}" />
     <link href="{{ url('https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
-    <script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js') }}"></script>
 </head>
-
+<style>
+    .latarcolor{
+        background-color: rgb(247,202,101);
+    }
+</style>
 <body class="sb-nav-fixed">
     @include('layouts.backend.partial.navbar')
 
