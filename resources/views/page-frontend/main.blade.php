@@ -9,7 +9,8 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Lava Landing Page HTML Template</title>
+    <title>Juragan Donat
+    </title>
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
@@ -33,19 +34,19 @@
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-9">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
+                        <a href="{{ ('/beranda') }}" class="logo">
                             J.DO
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
-                            <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
-                            <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a></li>
-                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Contact Us</a></li>
+                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">Beranda</a></li>
+                            <li class="scroll-to-section"><a href="#about" class="menu-item">Tentang</a></li>
+                            <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimoni</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Hubungi Kami</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -69,8 +70,7 @@
                     <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
                         data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                         <h1>More than just <em>DONUTS</em></h1>
-                        <p>Lava <a href="#">HTML landing page</a> template is provided by <a href="#">TemplateMo</a>.
-                           You can modify and use it for your commercial websites for free of charge. This template is last updated on 29 Oct 2019.</p>
+                        <p> <a href="#"</p>
                         <a href="#" class="main-button-slider">LIHAT MENU</a>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     <div class="features-item">
                         <div class="features-icon">
                             <img src="assets/images/features-icon-artikel.png" alt="">
-                            <h4>Artikel</h4>
+                            <h4>Menu</h4>
                             <a href="#testimonials" class="main-button">
                                 Discover More
                             </a>
@@ -195,9 +195,8 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="center-heading">
-                        <h2>What They Think <em>About Us</em></h2>
-                        <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
-                            Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
+                        <h2><em>___________________</em></h2>
+                        <p></p>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
@@ -205,7 +204,7 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author One"></i>
+                                <i><img src="{{ asset('img/icon_round.png') }}" alt="Author One"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -215,15 +214,15 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>Jonathan Smart</h4>
+                                {{-- <h4>Jonathan Smart</h4>
                                 <p>“Nullam hendrerit, elit a semper pharetra, ipsum nibh tristique tortor, in tempus
                                     urna elit in mauris.”</p>
-                                <span>Besta CTO</span>
+                                <span>Besta CTO</span> --}}
                             </div>
                         </div>
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Second Author"></i>
+                                <i><img src="{{ asset('img/icon_round.png') }}" alt="Second Author"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -233,15 +232,15 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>Martino Tino</h4>
+                                {{-- <h4>Martino Tino</h4>
                                 <p>“Morbi non mi luctus felis molestie scelerisque. In ac libero viverra, placerat est
                                     interdum, rhoncus leo.”</p>
-                                <span>Web Analyst</span>
+                                <span>Web Analyst</span> --}}
                             </div>
                         </div>
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author Third"></i>
+                                <i><img src="{{ asset('img/icon_round.png') }}" alt="Author Third"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -249,15 +248,15 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>George Tasa</h4>
+                                {{-- <h4>George Tasa</h4>
                                 <p>“Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
                                     congue a fringilla sed, maximus et urna.”</p>
-                                <span>System Admin</span>
+                                <span>System Admin</span> --}}
                             </div>
                         </div>
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Fourth Author"></i>
+                                <i><img src="{{ asset('img/icon_round.png') }}" alt="Fourth Author"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -266,10 +265,10 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>Sir James</h4>
+                                {{-- <h4>Sir James</h4>
                                 <p>"Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
                                     congue a fringilla sed, maximus et urna."</p>
-                                <span>New Villager</span>
+                                <span>New Villager</span> --}}
                             </div>
                         </div>
                     </div>
@@ -291,28 +290,20 @@
                             <form id="contact" action="" method="post">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
-                                        <fieldset>
                                             <input name="name" type="text" id="name" placeholder="Full Name" required=""
                                                 style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
                                     </div>
                                     <div class="col-md-6 col-sm-12">
-                                        <fieldset>
                                             <input name="email" type="text" id="email" placeholder="E-Mail Address"
                                                 required="" style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
                                     </div>
                                     <div class="col-lg-12">
-                                        <fieldset>
                                             <textarea name="message" rows="6" id="message" placeholder="Your Message"
                                                 required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
-                                        </fieldset>
                                     </div>
                                     <div class="col-lg-12">
-                                        <fieldset>
                                             <button type="submit" id="form-submit" class="main-button">Send Message
                                                 Now</button>
-                                        </fieldset>
                                     </div>
                                 </div>
                             </form>
@@ -327,11 +318,8 @@
                                 rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> page
                             for more detail.</p>
                         <ul class="social">
-                            <li><a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -339,7 +327,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="sub-footer">
-                        <p>Copyright &copy; 2021 J.DO
+                        <p>Copyright &copy; 2022 J.DO
 
                         | Template by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
                     </div>

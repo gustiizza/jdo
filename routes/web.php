@@ -18,10 +18,11 @@ use App\Http\Controllers\SiteController;
 //FRONTEND
 Route::get('/beranda',[FrontendController::class, 'index']);
 //BACKEND
-Route::get('/dasboard', [BackendController::class, 'dasboard']);
+Route::get('/', [BackendController::class, 'dasboard']);
 Route::get('/kelola-produk', [BackendController::class, 'kelolaProduk']);
 Route::get('/kelola-pemesanan', [BackendController::class, 'kelolaPemesanan']);
 Route::get('/kelola-checkout', [BackendController::class, 'kelolaCheckout']);
 Route::get('/kelola-pelanggan', [BackendController::class, 'kelolaPelanggan']);
 Route::get('/kelola-sosmed', [BackendController::class, 'kelolaSosmed']);
 Route::get('/setting', [BackendController::class, 'setting']);
+Route::get('/admin-login', [BackendController::class, 'login']);

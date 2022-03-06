@@ -26,7 +26,7 @@ class BackendController extends Controller
         return view('page-backend.kelola-data-checkout');
     }
     public function kelolaPelanggan(){
-        return view('page-backend.kelola-history-pelanggan');
+        return view('page-backend.kelola-data-history-pelanggan');
     }
     public function kelolaSosmed()
     {
@@ -35,5 +35,9 @@ class BackendController extends Controller
     public function setting()
     {
         return view('page-backend.pengaturan');
+    }
+    public function login()
+    {
+        return view('page-backend.admin-login');
     }
 }

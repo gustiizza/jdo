@@ -2,7 +2,7 @@
     <div class="sb-sidenav-menu">
         <div class="nav">
             <div class="sb-sidenav-menu-heading">Dasboard</div>
-            <a class="nav-link" href="{{ ('/dasboard') }}">
+            <a class="nav-link" href="{{ ('/') }}">
                 <div class="sb-nav-link-icon"></div>
                 Dashboard
             </a>
